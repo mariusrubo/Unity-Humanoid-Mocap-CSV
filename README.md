@@ -1,7 +1,7 @@
 # Purpose
 These scripts allow you to record mocap data to, and play from .csv files. This approach facilitates parsing of body movement data in statistical software such as MATLAB or R.
 
-![alt tag](https://github.com/mariusrubo/Unity-Humanoid-TransportObjects/blob/master/transport.jpg)
+![alt tag](https://github.com/mariusrubo/Unity-Humanoid-Mocap-CSV/blob/master/mocap.jpg)
 
 # Installation
 * Attach the script "RecordAnimation.cs" to the character that is being tracked.
