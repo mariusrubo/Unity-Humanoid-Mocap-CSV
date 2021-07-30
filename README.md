@@ -10,7 +10,7 @@ These scripts allow you to record mocap data to, and play from .csv files. This 
 * You can load the recorded data into R using "MocapData.R".
 
 # Limitations
-* The script can only capture movements that are completed inside the Update()-loop. This is not a problem for motion capture devices such as the Perception Neuron. Movements performed by the package Final IK, which runs in the LateUpdate-loop, can however not be recorded.
+* The script only captures movements that are completed inside the Update()-loop. This should work well for most motion capturing devices. If you capture movements processed in LateUpdate(), you will need to modify the scripts. For instance, if you use the Final IK package, the best option would be to use the solver's OnPostUpdate delegate. 
 * While storing mocap data as .csv file facilitates statistical analyses, recorded animations can not easily be integrated and blended in a Unity controller component, as you can with .anim files.
 
 # License
